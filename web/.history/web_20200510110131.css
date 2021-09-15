@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+}
+.container header{
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+.container header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.container header ul li{
+    font-size: 20px;
+}
+.container header ul li a{
+    text-decoration: none;
+}
+.container header .hmenu li a{
+    display: block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.container header .hmenu{
+    display: ;
+}

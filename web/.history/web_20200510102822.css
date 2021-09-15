@@ -1,0 +1,16 @@
+*{
+    font-family: sans-serif;
+}
+.container header{
+    width: 80%;
+}
+.container header ul{
+    list-style: none;
+    display: flex;
+}
+.container header ul li{
+    padding: 0 15px;
+}
+.container header ul li a{
+    text-decoration: none;
+}

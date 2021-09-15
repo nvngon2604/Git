@@ -1,0 +1,7 @@
+article{
+    width: 100px;
+    margin: 40px 100px;
+}
+article ul li{
+    list-style: none;
+}

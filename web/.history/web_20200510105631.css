@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+.container header{
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+.container header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.container header ul li{
+    font-size: 20px;
+}
+.container header ul li a{
+    text-decoration: none;
+}
+.hmenu{
+    margin: 8px 0;
+    padding: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 5px orangered;
+    width: 90px;
+    
+    display: none;
+}

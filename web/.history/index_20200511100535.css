@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-image: url('img1.jpg');
+    background-size: cover;
+}
+/*============dropdown==========*/
+.dropdown {
+    width: 80%;
+    position: relative;
+}
+.dropbtn {
+    background-color: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropbtn:hover {
+    background-color: rgb(251, 191, 238);
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    width: 120px;
+    background-color: rgb(221, 245, 255);
+}
+.dropdown-content a {
+    color:black;
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgb(147, 144, 144);
+}
+.dropdown-content a:hover {
+    background-color: rgb(152, 190, 243);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*============site==========*/
+.site {
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    top:20px;
+    right: 40px;
+}
+.site a {
+    margin: 0 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}

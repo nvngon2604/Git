@@ -1,0 +1,11 @@
+*{
+    font-family: sans-serif;
+}
+.container header ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 10px;
+}
+.container header ul li a{
+    text-decoration: none;
+}

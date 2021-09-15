@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+}
+/*-------------- nav-------------------*/
+.dropdown {
+    position: relative;
+}
+.dropbtn {
+    background-color: rgb(13, 216, 13);
+    border:none;
+    padding: 12px 16px;
+    font-size: 16px;
+    color:white;
+}

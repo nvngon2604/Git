@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown span {
+    font-size: 19px;
+    border: 1px solid blue;
+}
+.dropdown span a{
+    text-decoration: none;
+}
+.dropdown-content {
+    position: absolute;
+    min-width: 80px;
+}

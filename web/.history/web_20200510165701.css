@@ -1,0 +1,10 @@
+* {
+    font-family: sans-serif;
+}
+span {
+    background-color: #22e028;
+    color: rgb(251, 251, 251);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}

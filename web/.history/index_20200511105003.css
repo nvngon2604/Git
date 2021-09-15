@@ -1,0 +1,98 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('img3.png');
+    background-size: cover;
+}
+/*============dropdown==========*/
+.dropdown {
+    width: 140px;
+    position: fixed;
+    top: 10px;
+}
+.dropbtn {
+    background-color: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropbtn:hover {
+    background-color: rgb(251, 191, 238);
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    width: 130px;
+    background-color: rgb(221, 245, 255);
+}
+.dropdown-content a {
+    color:black;
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgb(147, 144, 144);
+}
+.dropdown-content i {
+    transform: scale(0);
+}
+.dropdown-content a:hover i {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.dropdown-content a:hover {
+    background-color: rgb(152, 190, 243);
+    transition: 0.3s;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*============site==========*/
+.site {
+    display: flex;
+    justify-content:flex-end;
+    position: fixed;
+    top:20px;
+    right: 40px;
+    animation: moveRight 1s 2 alternate;
+}
+@keyframes moveRight {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+.site a {
+    margin: 0 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.site a:hover {
+    color: rgb(248, 91, 91);
+    transition: 0.3s;
+}
+/*============article==========*/
+article .amenu {
+    float: left;
+    width: 20%;
+    min-height: 1000px;
+    border-right: 1px solid red;
+}
+.amenu a {
+    display: block;
+    margin-top: 120px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bolder;
+    padding-right: 8px;
+}
+.amenu a:hover {
+    color: rgb(255, 238, 0);
+}
+/*============aside==========*/
+aside iframe {
+    float: left;
+    width: 80%;
+}

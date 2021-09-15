@@ -1,0 +1,9 @@
+*{
+    font-family: sans-serif;
+}
+.container header ul{
+    list-style: none;
+}
+.container header ul li a{
+    text-decoration: none;
+}

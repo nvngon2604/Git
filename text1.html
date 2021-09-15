@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div ng-controller="myCtrl">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="5">SHOPPING
+                        <select>
+                            <option value=""></option>
+                            <option value="200">Duoi 200</option>
+                            <option value="700">Duoi 700</option>
+                            <option value="800">Duoi 800</option>
+                            <option value="1300">Duoi 1300</option>
+                        </select>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <div ng-switch="case">
+                    <div ng-switch-when="1300">
+                        <tr ng-init="quantity=0; cost=1246">
+                            <td><input type="checkbox" ng-model="myVar"></td>
+                            <th ng-hide="myVar">Iphone 11</th>
+                            <th ng-hide="myVar"><input type="number" min="0" ng-model="quantity"></th>
+                            <th ng-hide="myVar">Price: <input type="number" ng-model="cost" readonly></th>
+                            <th ng-hide="myVar">Total: <b style="color: rgb(0, 0, 0);">${{quantity*cost}}</b></th>
+                        </tr>
+                    </div>
+                    <tr ng-init="quantity1=0; cost1=765">
+                        <td><input type="checkbox" ng-model="myVar2"></td>
+                        <th ng-hide="myVar2">Samsung</th>
+                        <th ng-hide="myVar2"><input type="number" min="0" ng-model="quantity1"></th>
+                        <th ng-hide="myVar2">Price: <input type="number" ng-model="cost1" readonly></th>
+                        <th ng-hide="myVar2">Total: <b style="color: rgb(0, 0, 0);">${{quantity1*cost1}}</b></th>
+                    </tr>
+                    <tr ng-init="quantity2=0; cost2=659">
+                        <td><input type="checkbox" ng-model="myVar3"></td>
+                        <th ng-hide="myVar3">Nokia</th>
+                        <th ng-hide="myVar3"><input type="number" min="0" ng-model="quantity2"></th>
+                        <th ng-hide="myVar3">Price: <input type="number" ng-model="cost2" readonly></th>
+                        <th ng-hide="myVar3">Total: <b style="color: rgb(0, 0, 0);">${{quantity2*cost2}}</b></th>
+                    </tr>
+                    <tr ng-init="quantity6=0; cost6=180">
+                        <td><input type="checkbox" ng-model="myVar4"></td>
+                        <th ng-hide="myVar4">Motorola</th>
+                        <th ng-hide="myVar4"><input type="number" min="0" ng-model="quantity6"></th>
+                        <th ng-hide="myVar4">Price: <input type="number" ng-model="cost6" readonly></th>
+                        <th ng-hide="myVar4">Total: <b style="color: rgb(0, 0, 0);">${{quantity6*cost6}}</b></th>
+                    </tr>
+                </div>
+                <tr>
+                    <th colspan="4">Into Money</th>
+                    <th>
+                        ${{quantity*cost+quantity1*cost1+quantity2*cost2+quantity6*cost6}}
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller('myCtrl', ['$scope', function ($scope) {  }]);
+    </script>
+</body>
+</html>

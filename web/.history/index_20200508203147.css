@@ -1,0 +1,12 @@
+body{
+    padding: 0;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.container .image{
+    display: flex;
+}

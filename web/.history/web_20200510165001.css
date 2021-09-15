@@ -1,0 +1,9 @@
+* {
+    font-family: sans-serif;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown span {
+    font-size: 20px;
+}

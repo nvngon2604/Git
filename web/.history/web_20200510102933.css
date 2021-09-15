@@ -1,0 +1,21 @@
+*{
+    font-family: sans-serif;
+}
+.container header{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(187, 186, 186);
+    margin: 0 auto
+}
+.container header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.container header ul li{
+    padding: 0 15px;
+}
+.container header ul li a{
+    text-decoration: none;
+}

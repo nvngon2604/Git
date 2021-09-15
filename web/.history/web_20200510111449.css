@@ -1,0 +1,14 @@
+.dropdown {
+    position: relative;
+}
+.dropdown span {
+    font-size: 20px;
+}
+.dropdown-content {
+    position: absolute;
+    display: ;
+    min-width: 100px;
+    background-color: rgb(209, 209, 209);
+    padding: 7px 16px;
+    margin-top: 6px;
+}

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+nav{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+nav .nav-links{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
+}
+.container nav .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 14px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(0, 229, 255);
+}
+.container nav .nav-links ul li a{
+    text-decoration: none;
+}
